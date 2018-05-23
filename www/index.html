@@ -146,6 +146,7 @@
 		*/
 
 		function onDeviceReady() {
+			StatusBar.hide();
 			if(navigator.connection.type)
 				networkState = navigator.connection.type;
 			else

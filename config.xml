@@ -153,9 +153,13 @@
 </platform>
 
 
-	
-	<access origin="*"/> <!-- allow local pages -->
 	<allow-navigation href="*" />
+	<access origin="*"/> <!-- allow local pages -->
+	<access origin="tel:" launch-external="yes" />
+	<access origin="mailto:" launch-external="yes" />
+	<access origin="sms:" launch-external="yes" />
+	<access origin="geo:" launch-external="yes" />
+	<access origin="maps:" launch-external="yes" />
 
 	
 
